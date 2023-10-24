@@ -1,6 +1,4 @@
 @import './base';
 @import './variable';
+@import './normalize';
 
-h1 {
-  color: var($primary-color)
-}
