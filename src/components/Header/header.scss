@@ -1,0 +1,63 @@
+.header {
+  &__top {
+    background: var(--background);
+
+    & .container {
+      max-width: 1170px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+
+      & .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        & .column {
+          flex: 0 0 50%;
+          max-width: 50%;
+          color: var(--normal-color);
+        }
+      }
+    }
+
+    &__left {
+      padding: 10px 0 13px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      & .mail_block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      & .line {
+        height: 20px;
+        width: 1px;
+        background: #000000;
+        opacity: 0.1;
+      }
+
+      & .text {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+
+    &__right {
+      padding: 10px 0 13px;
+      display: flex;
+      gap: 10px;
+      justify-content: end;
+      align-items: center;
+
+    }
+  }
+
+
+}
