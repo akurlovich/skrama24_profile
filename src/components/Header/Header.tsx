@@ -65,7 +65,7 @@ const HeaderInner: FC = () => {
             <div className="header__cart">
               <a href="">
                 <IoBagHandle size={30}/>
-                <span>1</span>
+                <span>7</span>
               </a>
               <div className="header__cart__price">
                 BYN:
